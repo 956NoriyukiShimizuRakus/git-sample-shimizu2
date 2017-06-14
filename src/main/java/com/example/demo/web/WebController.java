@@ -8,6 +8,7 @@ public class WebController {
 
 	@RequestMapping("/index")
 	public String index(){
+		System.out.println("ピカチュー");
 		return "hello";
 	}
 	
